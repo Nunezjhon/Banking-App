@@ -1,0 +1,39 @@
+customers02.csv
+transactions02.csv
+>> Customers before:
+ Aadi (100528): $500.50
+ Adarsh (239018): $99.50
+ Antwan (111908): $555.99
+ Drago (514679): $22.49
+ Fangfang (998720): $11.98
+ Jacob (441296): $100.00
+ Matt (222212): $22.50
+ Mika (343443): $100.00
+ Mohit (555595): $100.50
+ Pooja (654321): $999.99
+ Sean (123456): $0.00
+ Srishti (770914): $250.25
+ Zaynab (999291): $100.00
+ Zeta (921219): $100.00
+>> Processing...
+ **Invalid Tx: 1234567,50.00
+ **Rejected Tx: 441296,-101.00
+ **Invalid Tx: 100529,50.00
+ **Rejected Tx: 100528,-506.00
+ **Rejected Tx: 100528,-505.01
+ **Invalid Tx: 99872,-1000.00
+>> Customers after:
+ Pooja (654321): $999.99
+ Antwan (111908): $553.00
+ Srishti (770914): $300.01
+ Mika (343443): $200.00
+ Zaynab (999291): $200.00
+ Adarsh (239018): $100.00
+ Fangfang (998720): $100.00
+ Mohit (555595): $100.00
+ Zeta (921219): $100.00
+ Drago (514679): $21.50
+ Jacob (441296): $21.50
+ Matt (222212): $21.50
+ Sean (123456): $1.00
+ Aadi (100528): $0.00
